@@ -1,0 +1,18 @@
+O dataset FuelConsumption contém classificações de consumo de combustível específicas do modelo e 
+emissões estimadas de dióxido de carbono para veículos novos leves à venda no Canadá.
+
+Varáveis:
+
+- MAKE (fabricante)
+- MODEL 
+- VEHICLE CLASS (categoria)
+
+- ENGINE SIZE (cilindradas)
+- CYLINDERS 
+- TRANSMISSION (número de marchas)
+
+- FUELTYPE
+- FUEL CONSUMPTION Comb (L/100 km) 
+- FUELCONSUMPTION_COMB_MPG	
+
+Uma variável-alvo (target): CO2 EMISSIONS (g/km)
