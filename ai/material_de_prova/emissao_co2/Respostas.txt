@@ -1,0 +1,41 @@
+1) O que é aprendizado de máquina?
+
+É uma subárea da inteligência artificial que envolve o desenvolvimento de algoritmos e modelos que permitem que sistemas aprendam a partir de dados, identificando padrões e tomando decisões com pouca ou nenhuma intervenção humana.
+O objetivo do aprendizado de máquina é criar modelos que possam generalizar a partir de exemplos para resolver problemas futuros de maneira autônoma.
+
+2) Para que é usado o OneHotEnconder?
+
+O OneHotEncoder é utilizado para converter variáveis categóricas (variáveis que assumem um número limitado e fixo de categorias, como "cor",
+"tipo de combustível", "cidade", etc.) em uma representação numérica que possa ser utilizada por algoritmos de aprendizado de máquina.
+
+3) O que é o pré-processamento dos dados?
+
+É uma etapa onde os dados brutos são preparados e transformados em um formato adequado para serem usados em algoritmos de aprendizado de máquina.
+Esse processo visa melhorar a qualidade dos dados, garantindo que eles estejam limpos, padronizados e relevantes para a tarefa em questão.
+Um bom pré-processamento dos dados pode aumentar significativamente o desempenho dos modelos.
+
+======
+
+1) Tratamento de valores ausentes e padronização dos preditores são técnicas de pré-processamento de dados. Por que estas técnicas são importantes?  
+
+Valores ausentes são comuns em datasets reais e, se não forem tratados, podem prejudicar a qualidade do modelo.
+Muitos algoritmos de aprendizado de máquina não conseguem lidar com valores nulos diretamente e podem produzir erros ou resultados imprevisíveis.
+
+Em muitos datasets, as variáveis podem estar em escalas diferentes. Por exemplo, uma coluna pode conter valores de 0 a 1 (como a fração de combustível utilizada), enquanto outra pode conter valores na ordem de milhares (como a cilindrada do motor).
+Esses diferentes intervalos podem levar os modelos a dar mais importância às variáveis de maior escala, distorcendo as previsões.
+
+2) Defina sobreajuste (overfitting) e sub-ajuste (underfitting) em modelos de aprendizado de máquina e diga um sinal indicativo de sobreajuste e sub-ajuste.
+
+O sobreajuste ocorre quando um modelo se ajusta excessivamente aos dados de treinamento, capturando não apenas as tendências gerais, mas também o "ruído" ou as flutuações aleatórias presentes nesses dados.
+Isso significa que o modelo se torna muito complexo e aprende detalhes específicos que não se aplicam a dados novos, levando a um desempenho ruim em dados de teste ou validação.
+
+O subajuste ocorre quando um modelo é muito simples para capturar as relações subjacentes nos dados, resultando em um desempenho ruim tanto nos dados de treinamento quanto nos dados de teste.
+Isso geralmente acontece quando o modelo é muito limitado em termos de complexidade ou quando há uma falta de features relevantes.
+
+3) O que é validação cruzada?
+
+A validação cruzada é uma técnica de avaliação utilizada em aprendizado de máquina para medir a capacidade de generalização de um modelo.
+O objetivo é garantir que o modelo seja robusto e não apenas se ajuste bem aos dados de treinamento, mas também tenha um bom desempenho em dados não vistos.
+Na validação cruzada, o conjunto de dados é dividido em várias partes (ou "folds"), e o modelo é treinado e avaliado múltiplas vezes, cada vez utilizando um conjunto diferente de dados para teste.
+Essa abordagem ajuda a obter uma estimativa mais confiável do desempenho do modelo.
+
